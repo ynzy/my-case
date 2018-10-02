@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 引入样式 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+        
+    <div class="g-doc">
+        <input type="button" class="u-onclick" value="添加业绩" id="j-add-click">
+        <div class="g-cover"></div>
+        <!-- 登录窗口 -->
+        <div class="g-login">
+            <div class="u-close"></div>
+            <div class="m-login-hd clear_flx">
+                <div class="hd-title">
+                    登录创客学院
+                </div>
+                <div class="hd-reg">
+                    <a href="#">注册</a>
+                </div>
+            </div>
+            <div class="m-ipt">
+                <input class="u-user-text" type="text" placeholder="注册手机号/邮箱">
+                <input class="u-user-text" type="password" placeholder="密码">
+            </div>
+            <div class="m-info clear_flx">
+                <div class="info-left">
+                    <input type="checkbox" id="f-binding">
+                    <label for="f-binding">30天自动登录</label>
+                </div>
+                <div class="info-right">
+                    <a href="#">忘记密码</a>
+                </div>
+            </div>
+            <div class="m-login-btn">
+                <a href="#">登录</a>
+            </div>
+            <div class="m-login-other">
+                <div class="other">其他登录方式</div>
+                <div class="login-img">
+                    <ul>
+                        <li class="img-flx"><a class="wechat" href="#"></a></li>
+                        <li class="img-flx"><a class="blog" href="#"></a></li>
+                        <li class="img-flx"><a class="qq" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    jQuery(document).ready(function ($) {
+        $('#j-add-click').click(function () {
+            $('.g-cover').fadeIn(100);
+            $('.g-login').slideDown(200);
+        })
+        $('.u-close').click(function () {
+            $('.g-cover').fadeOut(100);
+            $('.g-login').slideUp(200);
+        })
+
+    })
+    </script>
+</body>
+
+</html>
