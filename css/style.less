@@ -293,8 +293,59 @@ a {
         }
     }
 }
-
-
+/* 主体内容 */
+.g-main {
+    margin-top: 40px;
+    .g-hd {
+        display: inline-block;
+        margin-bottom: 18px;
+    }
+}
+.g-tabs {
+    margin-left: 20px;
+    display: inline-block;
+    .tabs-tips {
+        display: inline-block;
+        span {
+            font-size: 14px;
+            color: #655;
+        }
+        span::after {
+            content: "|";
+            color: #a1a1a1;
+            padding: 0 10px;
+            font-size: 12px;
+        }
+        .none::after {
+            content: "";
+            padding: 0;
+        }
+    }
+}
+.m-tab-item {
+    .m-book-info {
+        display: flex;
+        li {
+            flex: 1;
+            padding: 20px;
+            border: 1px solid #ebe6e1;
+        }
+    }
+}
+.info-warp {
+    display: flex;
+    .book-img {
+        a {
+            img {
+                width: 114px;
+                height: 160px;
+            }
+        }
+    }
+    .book-info {
+        
+    }
+}
 /* 主体列表 */
 .g-bd-list {
     margin-top: 76px;

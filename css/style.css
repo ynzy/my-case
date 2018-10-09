@@ -249,6 +249,50 @@ a {
   width: 720px;
   height: 380px;
 }
+/* 主体内容 */
+.g-main {
+  margin-top: 40px;
+}
+.g-main .g-hd {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.g-tabs {
+  margin-left: 20px;
+  display: inline-block;
+}
+.g-tabs .tabs-tips {
+  display: inline-block;
+}
+.g-tabs .tabs-tips span {
+  font-size: 14px;
+  color: #655;
+}
+.g-tabs .tabs-tips span::after {
+  content: "|";
+  color: #a1a1a1;
+  padding: 0 10px;
+  font-size: 12px;
+}
+.g-tabs .tabs-tips .none::after {
+  content: "";
+  padding: 0;
+}
+.m-tab-item .m-book-info {
+  display: flex;
+}
+.m-tab-item .m-book-info li {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ebe6e1;
+}
+.info-warp {
+  display: flex;
+}
+.info-warp .book-img a img {
+  width: 114px;
+  height: 160px;
+}
 /* 主体列表 */
 .g-bd-list {
   margin-top: 76px;
