@@ -236,13 +236,50 @@ a {
     margin-top: 20px;
     /* 菜单 */
     .m-menu {
-        width: 30%;
-        padding: 0 18px;
+        width: 25%;
         border: 1px solid #e0dcd7;
-        .g-wrap {
-            padding: 11px 0;
-        }
+        
     }
+    .g-wrap {
+        padding: 11px 18px;
+        border-bottom: 1px solid #ebe6e1;
+        h3 {
+            position: relative;
+            height: 20px;
+            line-height: 20px;
+            font-size: 16px;
+            font-weight: 700;
+            padding-bottom: 5px;
+            i {
+                position: absolute;
+                right: 10px;
+                top: 5px;
+                width: 4px;
+                height: 9px;
+                background-image: url('../images/雪碧图.png');
+                background-position: 0 -174px;
+            }
+        }
+        p {
+            height: 24px;
+            line-height: 24px;
+        }
+        a::after {
+            content: "|";
+            color: #a1a1a1;
+            padding: 0 10px; 
+        }
+        .none::after {
+            content: "";
+            padding: 0;
+        }
+        .hot {
+            color: #c9483c;
+        }
+        
+
+    }
+
     /* 轮播图 */
     .m-carousel {
         width: 70%;

@@ -196,12 +196,45 @@ a {
   /* 轮播图 */
 }
 .g-bd-nav .m-menu {
-  width: 30%;
-  padding: 0 18px;
+  width: 25%;
   border: 1px solid #e0dcd7;
 }
-.g-bd-nav .m-menu .g-wrap {
-  padding: 11px 0;
+.g-bd-nav .g-wrap {
+  padding: 11px 18px;
+  border-bottom: 1px solid #ebe6e1;
+}
+.g-bd-nav .g-wrap h3 {
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.g-bd-nav .g-wrap h3 i {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 4px;
+  height: 9px;
+  background-image: url('../images/雪碧图.png');
+  background-position: 0 -174px;
+}
+.g-bd-nav .g-wrap p {
+  height: 24px;
+  line-height: 24px;
+}
+.g-bd-nav .g-wrap a::after {
+  content: "|";
+  color: #a1a1a1;
+  padding: 0 10px;
+}
+.g-bd-nav .g-wrap .none::after {
+  content: "";
+  padding: 0;
+}
+.g-bd-nav .g-wrap .hot {
+  color: #c9483c;
 }
 .g-bd-nav .m-carousel {
   width: 70%;
