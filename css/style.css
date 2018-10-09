@@ -200,7 +200,7 @@ a {
   border: 1px solid #e0dcd7;
 }
 .g-bd-nav .g-wrap {
-  padding: 11px 18px;
+  padding: 13px 18px;
   border-bottom: 1px solid #ebe6e1;
 }
 .g-bd-nav .g-wrap h3 {
@@ -237,7 +237,17 @@ a {
   color: #c9483c;
 }
 .g-bd-nav .m-carousel {
-  width: 70%;
+  width: 720px;
+  height: 380px;
+  margin-left: 16px;
+}
+.g-bd-nav .m-carousel .m-slide {
+  width: 720px;
+  height: 380px;
+}
+.g-bd-nav .m-carousel .m-slide .banner {
+  width: 720px;
+  height: 380px;
 }
 /* 主体列表 */
 .g-bd-list {
