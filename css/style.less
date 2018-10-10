@@ -14,6 +14,9 @@ a {
 .sprits-login {
     background-image: url('../images/下载.png');
 }
+.sprits-icon {
+    background: url('../images/雪碧图.png') no-repeat;
+}
 .inner {
     width: 980px;
     height: 100%;
@@ -31,7 +34,9 @@ a {
     clear: both;
 }
 /* 头部区域 */
-.g-hd {}
+.g-hd {
+    font-size: 18px;
+}
 
 /* 头部顶部 */
 .m-topbar {
@@ -613,8 +618,7 @@ a {
             height: 10px;
             left: 0;
             top: 2px;
-            background-image: url('../images/雪碧图.png');
-            background-repeat: no-repeat;
+            .sprits-icon;
             background-position: -40px -10px;
         }
         a {
@@ -628,14 +632,130 @@ a {
         line-height: 14px;
         overflow: hidden;
         padding: 10px 20px;
-
         font-size: 14px;
         color: #888;
         white-space: nowrap;
     }
 }
 
-
+/* 第五部分 */
+.m-book-about {
+    width: 980px;
+    display: flex;
+    .m-about-list {
+        
+        display: flex;
+        width: 25%;
+        height: 197px;
+        padding: 20px;
+        border: 1px solid #ebe6e1;
+        .icon {
+            position: relative;
+            width: 25%;
+            .weixin {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 36px;
+                height: 38px;
+                .sprits-icon;
+                background-position: 0 -23px;
+            }
+            .zuozhe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 36px;
+                height: 38px;
+                .sprits-icon;
+                background-position: -36px -23px;
+            }
+            .youxiang {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 36px;
+                height: 38px;
+                .sprits-icon;
+                background-position: 0 -61px;
+            }
+            .phone {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 36px;
+                height: 38px;
+                .sprits-icon;
+                background-position: -36px -61px;
+            }
+        }
+        .title {
+            position: relative;
+            width: 75%;
+            h3 {
+                color: #4c4c4c;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            h6 {
+                color: #655;
+                font-size: 12px;
+                margin: 4px 0;
+                white-space: nowrap;
+            }
+            p {
+                font-size: 12px;
+                color: #888;
+                line-height: 20px;
+                span {
+                   font-size: 12px;
+                   color: #888; 
+                }
+                .wx,.wb,.yx {
+                    display: inline-block;
+                    width: 19px;
+                    height: 16px;
+                    margin-left: 5px;
+                    position: relative;
+                    top: 5px;
+                    .sprits-icon;
+                }
+                .wx {
+                    background-position: -26px -131px;
+                }
+                .wx:hover {
+                    background-position: -26px -150px;
+                }
+                .wb {
+                    background-position: 0 -131px;
+                }
+                .wb:hover {
+                    background-position: 0 -150px;
+                }
+                .yx {
+                    background-position: -51px -131px;
+                }
+                .yx:hover {
+                    background-position: -51px -150px;
+                }
+            }
+            .btn {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 74px;
+                height: 22px;
+                line-height: 20px;
+                text-align: center;
+                color: #c9483c;
+                border: 1px solid #c9483c;
+                border-radius: 5px;
+            }
+            
+        }
+    }
+    
+}
 
 
 /* 主体列表 */

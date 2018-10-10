@@ -10,6 +10,9 @@ a {
 .sprits-login {
   background-image: url('../images/下载.png');
 }
+.sprits-icon {
+  background: url('../images/雪碧图.png') no-repeat;
+}
 .inner {
   width: 980px;
   height: 100%;
@@ -27,6 +30,9 @@ a {
   clear: both;
 }
 /* 头部区域 */
+.g-hd {
+  font-size: 18px;
+}
 /* 头部顶部 */
 .m-topbar {
   min-width: 980px;
@@ -549,8 +555,7 @@ a {
   height: 10px;
   left: 0;
   top: 2px;
-  background-image: url('../images/雪碧图.png');
-  background-repeat: no-repeat;
+  background: url('../images/雪碧图.png') no-repeat;
   background-position: -40px -10px;
 }
 .box-desc dt a {
@@ -565,6 +570,123 @@ a {
   font-size: 14px;
   color: #888;
   white-space: nowrap;
+}
+/* 第五部分 */
+.m-book-about {
+  width: 980px;
+  display: flex;
+}
+.m-book-about .m-about-list {
+  display: flex;
+  width: 25%;
+  height: 197px;
+  padding: 20px;
+  border: 1px solid #ebe6e1;
+}
+.m-book-about .m-about-list .icon {
+  position: relative;
+  width: 25%;
+}
+.m-book-about .m-about-list .icon .weixin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 38px;
+  background: url('../images/雪碧图.png') no-repeat;
+  background-position: 0 -23px;
+}
+.m-book-about .m-about-list .icon .zuozhe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 38px;
+  background: url('../images/雪碧图.png') no-repeat;
+  background-position: -36px -23px;
+}
+.m-book-about .m-about-list .icon .youxiang {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 38px;
+  background: url('../images/雪碧图.png') no-repeat;
+  background-position: 0 -61px;
+}
+.m-book-about .m-about-list .icon .phone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 38px;
+  background: url('../images/雪碧图.png') no-repeat;
+  background-position: -36px -61px;
+}
+.m-book-about .m-about-list .title {
+  position: relative;
+  width: 75%;
+}
+.m-book-about .m-about-list .title h3 {
+  color: #4c4c4c;
+  font-size: 16px;
+  font-weight: 700;
+}
+.m-book-about .m-about-list .title h6 {
+  color: #655;
+  font-size: 12px;
+  margin: 4px 0;
+  white-space: nowrap;
+}
+.m-book-about .m-about-list .title p {
+  font-size: 12px;
+  color: #888;
+  line-height: 20px;
+}
+.m-book-about .m-about-list .title p span {
+  font-size: 12px;
+  color: #888;
+}
+.m-book-about .m-about-list .title p .wx,
+.m-book-about .m-about-list .title p .wb,
+.m-book-about .m-about-list .title p .yx {
+  display: inline-block;
+  width: 19px;
+  height: 16px;
+  margin-left: 5px;
+  position: relative;
+  top: 5px;
+  background: url('../images/雪碧图.png') no-repeat;
+}
+.m-book-about .m-about-list .title p .wx {
+  background-position: -26px -131px;
+}
+.m-book-about .m-about-list .title p .wx:hover {
+  background-position: -26px -150px;
+}
+.m-book-about .m-about-list .title p .wb {
+  background-position: 0 -131px;
+}
+.m-book-about .m-about-list .title p .wb:hover {
+  background-position: 0 -150px;
+}
+.m-book-about .m-about-list .title p .yx {
+  background-position: -51px -131px;
+}
+.m-book-about .m-about-list .title p .yx:hover {
+  background-position: -51px -150px;
+}
+.m-book-about .m-about-list .title .btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 74px;
+  height: 22px;
+  line-height: 20px;
+  text-align: center;
+  color: #c9483c;
+  border: 1px solid #c9483c;
+  border-radius: 5px;
 }
 /* 主体列表 */
 .g-bd-list {
