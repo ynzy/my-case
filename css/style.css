@@ -187,12 +187,11 @@ a {
   background-image: url('../images/icon-download.png');
   background-repeat: no-repeat;
 }
-/* 页面主体 */
-/* 页面菜单 */
+/* 主要内容 */
 .g-bd-nav {
   display: flex;
   margin-top: 20px;
-  /* 菜单 */
+  /* 内容菜单 */
   /* 轮播图 */
 }
 .g-bd-nav .m-menu {
@@ -289,9 +288,63 @@ a {
 .info-warp {
   display: flex;
 }
+.info-warp .book-img {
+  margin-right: 15px;
+}
+.info-warp .book-img a {
+  display: block;
+  width: 114px;
+  height: 160px;
+}
 .info-warp .book-img a img {
   width: 114px;
   height: 160px;
+}
+.info-warp .book-info {
+  position: relative;
+}
+.info-warp .book-info h3 {
+  max-height: 44px;
+  line-height: 22px;
+  overflow: hidden;
+}
+.info-warp .book-info h3 a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #4c4c4c;
+}
+.info-warp .book-info p {
+  line-height: 18px;
+  margin: 6px 0;
+  font-size: 12px;
+  color: #888;
+}
+.info-warp .book-info .disc {
+  height: 54px;
+  line-height: 18px;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+.info-warp .book-info .read {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: 700;
+  color: #655;
+}
+.info-warp .book-info .read i {
+  position: absolute;
+  right: -10px;
+  bottom: 2px;
+  width: 5px;
+  height: 9px;
+  background-image: url('../images/雪碧图.png');
+  background-repeat: no-repeat;
+  background-position: 0 -175px;
 }
 /* 主体列表 */
 .g-bd-list {
