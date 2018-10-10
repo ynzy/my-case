@@ -352,7 +352,6 @@ a {
     }
 }
 .m-tab-item {
-    border: 1px solid #ebe6e1;
     .m-book-info {
         display: flex;
         li {
@@ -511,6 +510,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 9px;
+    border: 1px solid #ebe6e1;
     li {
         padding: 10px 11px;
         width: 20%;
@@ -538,9 +538,102 @@ a {
         }
     }
 }
+/* 第四部分 */
+.m-book-info {
+    .box {
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        img {
+            width: 285px;
+            height: 180px;
+        }
+        h3 {
+            height: 20px;
+            line-height: 20px;
+            margin: 13px 0 5px 0;
+            font-size: 16px;
+            font-weight: 700;
+            color: #4c4c4c;
+        }
+        p {
+            position: relative;
+            line-height: 18px;
+        }
+        .desc {
+            height: 54px;
+            overflow: hidden;
+            margin: 6px 0 10px 0;
+        }
+        .zan {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 14px;
+            height: 15px;
+            background-image: url('../images/雪碧图.png');
+            background-repeat: no-repeat;
+            background-position: 0 -11px;
+        }
+        .zan-num {
+            font-weight: 400;
+            padding-left: 16px;
+        }
+        .zhuan {
+            position: absolute;
+            left: 40px;
+            bottom: 0;
+            width: 18px;
+            height: 15px;
+            background-image: url('../images/雪碧图.png');
+            background-repeat: no-repeat;
+            background-position: -12px -10px;
+            margin-right: 3px;
+        }
+        .zhuan-num {
+            font-weight: 400;
+            padding-left: 25px;
+        }      
+    }
+}
+.box-desc {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f2f0;
+    dt {
+        position: relative;
+        height: 14px;
+        line-height: 14px;
+        margin: 0 20px;
+        i {
+            position: absolute;
+            width: 2px;
+            height: 10px;
+            left: 0;
+            top: 2px;
+            background-image: url('../images/雪碧图.png');
+            background-repeat: no-repeat;
+            background-position: -40px -10px;
+        }
+        a {
+            padding-left: 5px;
+            font-size: 14px;
+            color: #655;
+        }
+    }
+    dd {
+        
+        line-height: 14px;
+        overflow: hidden;
+        padding: 10px 20px;
 
-
-
+        font-size: 14px;
+        color: #888;
+        white-space: nowrap;
+    }
+}
 
 
 
