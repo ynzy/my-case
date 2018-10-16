@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>stickup -demo</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- stickup css -->
+    <link rel="stylesheet" href="./css/stickup.css">
+</head>
+<style>
+    body {
+        background: #f2f2f2;
+    }
+    p {
+    line-height: 40px;
+}
+h2 {
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: #ccc;
+    font-size: 20px;
+}
+.active>a:focus {
+    background:rgba(35, 107, 214, 0.575);
+    font-weight:700;
+}
+.active>a:hover {
+    background: rgba(35, 107, 214, 0.575);
+    color:#fff;
+    font-weight:700;
+}
+.navbar-wrapper {
+
+}
+.container {
+    background: #fff;
+}
+</style>
+
+<body>
+    <div class="container">
+        <h1>stickUP</h1>
+        <h3>jquery 的一个插件</h3>
+        <p>bootstrap中应用</p>
+        <p><a class="btn btn-large btn-success" href="http://github.com/LiranCohen/stickUp"><b>Visit GitHub</b></a></p>
+    </div>
+    <!-- start the navbar -->
+    <div class="navbar-wrapper">
+        <div class="container" >
+            <div class="navbar navbar-default" style="margin-bottom: 0;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="#collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="collapse">
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="menuItem active"><a href="#information">项目信息</a></li>
+                        <li role="presentation" class="menuItem"><a href="#team">团队资料</a></li>
+                        <li role="presentation" class="menuItem"><a href="#project">产品信息</a></li>
+                        <li role="presentation" class="menuItem"><a href="#development">发展历程</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end the navbar -->
+    <div data-target="collapse" class="container">
+        <!-- 基本信息 -->
+        <div class="" >
+            <h2 id="information"> 项目信息</h2>
+            <p>项目信息是指报告、数据、计划、安排、技术文件、
+                会议等与项目实施有联系的各种信息。
+                项目信息在项目实施过程中有非常重要的作用，
+                收集的项目信息是否准确，项目信息能否及时传递给项目利害关系者，将决定项目的成败。因此，要对项目信息进行系统科学的管理。项目信息在项目组织内部和该组织与外部环境之间不断的流动，从而构成了 “信息流”。
+            </p>
+            <p> 在实际工作中，信息的形式是多种多样的，
+                归纳起来有四种：一是个别谈话，其中包括给工作人员分析任务、检验工作、向个人提出建议和帮助等；
+                二为书面材料，其中包括信件及其复印件、谈话记录、工作条例、进展情况报告等；三为集体口头形式，其中包括会议、工作人员集体讨论、培训班等；
+                四为技术形式，其中包括录音、电话、广播等。
+            </p>
+        </div>
+        <div >
+            <h2 id="team">团队资料</h2>
+            <p>首席专家： 赵和
+                副首席：
+                核心组专家： 王海波，王占武，柴建芳，张艳敏，徐显，吕孟雨，王朝江，郭秀林，李伟明
+                依托单位： 遗传生理研究所
+                主要功能： 河北省特色和重要种质资源的搜集、保存与整理，新型及关键种质资源创新，新技术及共性技术研究与创新，作物遗传与生理机理研究，分子育种，微生物工程等。
+                团队成员： 李辉，王海波，刁现民，周人纲，王占武，李俊兰，赵艳华，张艳敏，柴建芳，赵和，智慧，徐
+                显，吕孟雨，王朝江，崔淑芳，孙果忠，吴永杰，韩继成，耿立格，温之雨，高春燕，金卫平，黎鸿慧，吴雅琴，池慧荣，冯延茹，张红梅，李国良，李洪涛张颖君，刘茜，王永芳，李海权，程和禾，张翠绵，王广恩，李伟，郭宝生，刘永伟，杨
+                帆，胡梦云，李玉生，
+                杨凤秋，王丽娜，胡阿丽，张建宏，郭 娴，田海燕，贾 楠
+            </p>
+
+            <p>
+                股东会是公司权力机构，对公司增资、利润分配、选举董事/监事等重大事项作出决策。
+
+                董事会是公司战略、经营管理和客户满意度的最高责任机构，承担带领公司前进的使命，行使公司战略与经营管理决策权，确保客户与股东的利益得到维护。
+
+                公司董事会及董事会常务委员会由轮值董事长主持，轮值董事长在当值期间是公司最高领袖。
+
+                监事会主要职责包括董事/高级管理人员履职监督、公司经营和财务状况监督、合规监督。
+            </p>
+        </div>
+        <div >
+            <h2 id="project">产品信息</h2>
+            <p>信息产品是指在信息化社会中产生的以传播信息为目的的服务性产品。新闻产品、媒体产品、广告、软件产品等是信息产品的主要内容。信息产品凝结着人类劳动的信息。
+                信息作为产品是由信息内容及信息载体两部分构成。信息内容与信息载体是信息产品不可分割的两个方面。没有载体，也就不存在信息，更谈不上信息产品了；没有信息，载体的独立存在只能称为物质产品，而不是信息产品。
+            </p>
+            <p>信息产品是指在信息化社会中产生的以传播信息为目的的服务性产品。新闻产品、媒体产品、广告、软件产品等是信息产品的主要内容。信息产品凝结着人类劳动的信息。
+                信息作为产品是由信息内容及信息载体两部分构成。信息内容与信息载体是信息产品不可分割的两个方面。没有载体，也就不存在信息，更谈不上信息产品了；没有信息，载体的独立存在只能称为物质产品，而不是信息产品。
+            </p>
+        </div>
+        <div >
+            <h2 id="development">发展历程</h2>
+            <p>每个企业都有自己的发展历程，也就是企业管理团队与管理理念逐步摸索与完善的过程，因而都有自己的企业发展史。企业发展具有阶段性，专家学者们认为有生命周期，结合当代企业的发展特点，一般将企业生命周期划分为创立、扩张、成熟、整合和蜕变阶段。企业发展史，即是围绕企业的创立、扩张、成熟、整合和蜕变各阶段的发展状况，
+                真实、准确、完善地记录下来的企业发展史册。
+            </p>
+            <p>每个企业都有自己的发展历程，也就是企业管理团队与管理理念逐步摸索与完善的过程，因而都有自己的企业发展史。企业发展具有阶段性，专家学者们认为有生命周期，结合当代企业的发展特点，一般将企业生命周期划分为创立、扩张、成熟、整合和蜕变阶段。企业发展史，即是围绕企业的创立、扩张、成熟、整合和蜕变各阶段的发展状况，
+                真实、准确、完善地记录下来的企业发展史册。
+            </p>
+            <p>每个企业都有自己的发展历程，也就是企业管理团队与管理理念逐步摸索与完善的过程，因而都有自己的企业发展史。企业发展具有阶段性，专家学者们认为有生命周期，结合当代企业的发展特点，一般将企业生命周期划分为创立、扩张、成熟、整合和蜕变阶段。企业发展史，即是围绕企业的创立、扩张、成熟、整合和蜕变各阶段的发展状况，
+                    真实、准确、完善地记录下来的企业发展史册。
+                </p>
+                <p>每个企业都有自己的发展历程，也就是企业管理团队与管理理念逐步摸索与完善的过程，因而都有自己的企业发展史。企业发展具有阶段性，专家学者们认为有生命周期，结合当代企业的发展特点，一般将企业生命周期划分为创立、扩张、成熟、整合和蜕变阶段。企业发展史，即是围绕企业的创立、扩张、成熟、整合和蜕变各阶段的发展状况，
+                    真实、准确、完善地记录下来的企业发展史册。
+                </p>
+        </div>
+    </div>
+
+
+
+    <!-- bootstrap javascript -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- stickup javascript -->
+    <script src="./js/stickUp.min.js"></script>
+    <script>
+        jQuery(function ($) {
+            $(document).ready(function () {
+                $('.navbar-wrapper').stickUp({
+                    parts: {
+                        0: 'information',
+                        1: 'team',
+                        2: 'project',
+                        3: 'development',
+                    },
+                    itemClass: 'menuItem',
+                    itemHover: 'active',
+                    // topMargin: 'auto'
+                });
+            });
+        });
+        $(function () {
+            //获取要定位元素距离浏览器顶部的距离
+            var navH = $(".nav").offset().top;
+
+            //滚动条事件
+            $(window).scroll(function () {
+                //获取滚动条的滑动距离
+                var scroH = $(this).scrollTop();
+                //滚动条的滑动距离大于等于定位元素距离浏览器顶部的距离，就固定，反之就不固定
+                if (scroH >= navH) {
+                    $(".navbar-wrapper").css({
+                        "position": "fixed",
+                        "top": 0,
+                        "width": "100%",
+                    });
+                } else if (scroH < navH) {
+                    $(".navbar-wrapper").css({
+                        "position": "static"
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
