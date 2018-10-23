@@ -1,0 +1,15 @@
+@charset 'utf-8';
+body {
+  padding: 50px;
+}
+h1 {
+  margin: 20px auto;
+  font-size: 25px;
+  font-weight: 700;
+}
+ul {
+  margin: 20px auto;
+}
+ul li {
+  margin: 10px 0;
+}
